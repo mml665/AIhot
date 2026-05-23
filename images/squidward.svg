@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Head -->
+  <ellipse cx="100" cy="90" rx="50" ry="55" fill="#8FBCBB" stroke="#6B9E9E" stroke-width="3"/>
+  <!-- Nose -->
+  <ellipse cx="100" cy="100" rx="12" ry="30" fill="#8FBCBB" stroke="#6B9E9E" stroke-width="2"/>
+  <ellipse cx="100" cy="128" rx="8" ry="5" fill="#6B9E9E"/>
+  <!-- Eyes -->
+  <ellipse cx="75" cy="80" rx="16" ry="14" fill="white" stroke="#333" stroke-width="2"/>
+  <ellipse cx="125" cy="80" rx="16" ry="14" fill="white" stroke="#333" stroke-width="2"/>
+  <circle cx="78" cy="82" r="6" fill="#8B0000"/>
+  <circle cx="122" cy="82" r="6" fill="#8B0000"/>
+  <circle cx="80" cy="80" r="2" fill="white"/>
+  <circle cx="124" cy="80" r="2" fill="white"/>
+  <!-- Eyebrows (angry) -->
+  <line x1="60" y1="65" x2="85" y2="62" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <line x1="115" y1="62" x2="140" y2="65" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <!-- Mouth (frown) -->
+  <path d="M 75 140 Q 100 130 125 140" fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Head top bumps -->
+  <circle cx="70" cy="40" r="12" fill="#8FBCBB" stroke="#6B9E9E" stroke-width="2"/>
+  <circle cx="100" cy="35" r="12" fill="#8FBCBB" stroke="#6B9E9E" stroke-width="2"/>
+  <circle cx="130" cy="40" r="12" fill="#8FBCBB" stroke="#6B9E9E" stroke-width="2"/>
+  <!-- Shirt -->
+  <rect x="55" y="140" width="90" height="30" rx="5" fill="#9B59B6" stroke="#7D3C98" stroke-width="2"/>
+  <line x1="100" y1="140" x2="100" y2="170" stroke="#7D3C98" stroke-width="1.5"/>
+  <!-- Tentacles -->
+  <path d="M 60 170 Q 50 185 45 195" fill="none" stroke="#8FBCBB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 80 170 Q 75 185 70 195" fill="none" stroke="#8FBCBB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 100 170 Q 100 185 100 195" fill="none" stroke="#8FBCBB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 120 170 Q 125 185 130 195" fill="none" stroke="#8FBCBB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 140 170 Q 150 185 155 195" fill="none" stroke="#8FBCBB" stroke-width="6" stroke-linecap="round"/>
+</svg>
