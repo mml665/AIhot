@@ -67,6 +67,7 @@ def refresh():
 app.mount("/css", StaticFiles(directory=os.path.join(ROOT_DIR, "css")), name="css")
 app.mount("/js", StaticFiles(directory=os.path.join(ROOT_DIR, "js")), name="js")
 app.mount("/data", StaticFiles(directory=os.path.join(ROOT_DIR, "data")), name="data")
+app.mount("/images", StaticFiles(directory=os.path.join(ROOT_DIR, "images")), name="images")
 
 
 @app.get("/")
