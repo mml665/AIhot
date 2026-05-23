@@ -7,7 +7,6 @@ import threading
 
 from backend.scraper import fetch_all
 from backend.news_store import load_news, update_news
-from backend.scheduler import start_scheduler, scrape_job
 
 app = FastAPI(title="AIhot API")
 
@@ -23,9 +22,19 @@ ROOT_DIR = os.path.dirname(os.path.dirname(__file__))
 
 @app.on_event("startup")
 def startup():
-    # Run initial scrape in background so healthcheck isn't blocked
-    threading.Thread(target=scrape_job, daemon=True).start()
-    start_scheduler()
+    # Run initial scrape in background
+    threading.Thread(target=_safe_scrape, daemon=True).start()
+
+
+def _safe_scrape():
+    try:
+        from backend.scraper import fetch_all
+        from backend.news_store import update_news
+        new_items = fetch_all()
+        update_news(new_items)
+        print(f"[Startup] Scraped {len(new_items)} items")
+    except Exception as e:
+        print(f"[Startup] Scrape failed: {e}")
 
 
 @app.get("/api/news")
@@ -59,8 +68,12 @@ def get_categories():
 
 @app.post("/api/refresh")
 def refresh():
-    scrape_job()
-    return {"status": "ok", "message": "Refresh triggered"}
+    try:
+        new_items = fetch_all()
+        update_news(new_items)
+        return {"status": "ok", "count": len(new_items)}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
 
 
 # Serve static files
