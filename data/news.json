@@ -1,0 +1,622 @@
+[
+  {
+    "id": "923e48542fd4",
+    "title": "Elon Musk has given up on solar power (on Earth)",
+    "summary": "Elon Muks's xAI has gone all in on natural gas, while SpaceX is obsessed with orbital data centers. What happened to the \"solar-electric economy\" he promised?",
+    "source": "TechCrunch",
+    "time": "2026-05-23",
+    "category": "科技",
+    "tag": "",
+    "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/"
+  },
+  {
+    "id": "cbfd2b5584af",
+    "title": "Google’s new anything-to-anything AI model is wild",
+    "summary": "Last year I deepfaked my kid's stuffed animal to make it look like his plush deer was on vacation. It was an experiment to see if I could re-create the events depicted in a Gemini ad Google was running, and I never showed the videos of Buddy the deer on his adventures to my four-year-old. […]",
+    "source": "The Verge",
+    "time": "2026-05-23",
+    "category": "大模型",
+    "tag": "hot",
+    "url": "https://www.theverge.com/tech/936507/gemini-omni-hands-on-deepfake-ai-video"
+  },
+  {
+    "id": "fb2a50730f34",
+    "title": "AI is being used to resurrect the voices of dead pilots",
+    "summary": "People used AI on a spectrogram image of cockpit recordings to reconstruct them, forcing the NTSB to temporarily block access to its docket system.",
+    "source": "TechCrunch",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "",
+    "url": "https://techcrunch.com/2026/05/22/ai-is-being-used-to-resurrect-the-voices-of-dead-pilots/"
+  },
+  {
+    "id": "c6cc3fa05d40",
+    "title": "Google goes for the glitter with disco-ball icons: ‘Are y’all sure you still want this?’",
+    "summary": "You can now disco ball-ify your entire Pixel home screen, says Google.",
+    "source": "TechCrunch",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want-this/"
+  },
+  {
+    "id": "a404c57a6ade",
+    "title": "How VCs and founders use inflated ‘ARR’ to crown AI startups",
+    "summary": "Some AI startups are stretching traditional revenue metrics when talking about progress publicly. And their investors are fully aware.",
+    "source": "TechCrunch",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "",
+    "url": "https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/"
+  },
+  {
+    "id": "b3072fc28bc8",
+    "title": "Elon Musk can’t hear you over the sound of his $1.75 trillion IPO",
+    "summary": "The SpaceX S-1 is finally here, and the story it tells goes way further than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a $28 trillion total addressable market, a pay package tied to establishing a Mars colony, and a valuation target that would make it the largest IPO in American […]",
+    "source": "TechCrunch",
+    "time": "2026-05-22",
+    "category": "投资",
+    "tag": "",
+    "url": "https://techcrunch.com/podcast/elon-musk-cant-hear-you-over-the-sound-of-his-1-75-trillion-ipo/"
+  },
+  {
+    "id": "0dad06afda9b",
+    "title": "You can no longer Google the word ‘disregard’",
+    "summary": "After Google Search's AI update, the word \"disregard\" now effectively breaks the search interface.",
+    "source": "TechCrunch",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://techcrunch.com/2026/05/22/you-can-no-longer-google-the-word-disregard/"
+  },
+  {
+    "id": "951da97da111",
+    "title": "We tried Google’s AI glasses and they’re almost there",
+    "summary": "Google demoed prototype Android XR glasses that overlay Gemini-powered translation, navigation, and other information directly into your field of view.",
+    "source": "TechCrunch",
+    "time": "2026-05-22",
+    "category": "大模型",
+    "tag": "hot",
+    "url": "https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/"
+  },
+  {
+    "id": "6bc71dc1c5bd",
+    "title": "SpaceX files to go public, and the math requires a little faith",
+    "summary": "The SpaceX S-1 is finally here, and the story it tells goes way further than rockets. The filing runs to 36 pages of risk factors alone, and the numbers inside match the ambition: a $28 trillion total addressable market, a pay package tied to establishing a Mars colony, and a valuation target that would make it the largest IPO in American […]",
+    "source": "TechCrunch",
+    "time": "2026-05-22",
+    "category": "投资",
+    "tag": "",
+    "url": "https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/"
+  },
+  {
+    "id": "8d7ba8033ae8",
+    "title": "Google&#8217;s AI search is so broken it can &#8216;disregard&#8217; what you&#8217;re looking for",
+    "summary": "Google's AI Overviews are running into an interesting problem right now. Earlier on Friday, if you searched for the term \"disregard,\" the AI Overview section would include a response like what you'd see from a more traditional AI chatbot instead of the typical AI summary, as spotted on X. As you can see in the […]",
+    "source": "The Verge",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://www.theverge.com/tech/936176/google-ai-overviews-search-disregard"
+  },
+  {
+    "id": "9cddec6680b5",
+    "title": "Elon, stop trying to make Grok happen",
+    "summary": "There is a harsh truth about Elon Musk's \"truth-seeking\" AI chatbot Grok: It's not very good, and not many people are using it. That's the takeaway of a new Reuters report, which found that Grok barely appears in federal records of how the US government used AI last year. It's not the only sign xAI's […]",
+    "source": "The Verge",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/936219/elon-stop-trying-to-make-grok-happen"
+  },
+  {
+    "id": "34cbc2b6326c",
+    "title": "The literary world isn’t prepared for AI",
+    "summary": "Since 2012, the British literary magazine Granta has published the regional winners of the annual Commonwealth Short Story Prize. This year, however, there was something off about one of the selections for the prestigious award: It appears to have been written by AI. Jamir Nazir's \"The Serpent in the Grove\" has many of the hallmarks […]",
+    "source": "The Verge",
+    "time": "2026-05-22",
+    "category": "大模型",
+    "tag": "",
+    "url": "https://www.theverge.com/tech/936073/ai-writing-granta-commonwealth-prize"
+  },
+  {
+    "id": "6ed0b22359fc",
+    "title": "Spotify says its AI remix tool is for superfans, but I&#8217;m not convinced",
+    "summary": "AI covers and remixes of songs are already a blight on the internet. Spotify, YouTube, TikTok, and Instagram are awash in flat reggae versions of \"Smells Like Teen Spirit,\" dinky country renditions of The Weeknd, and monotonous Motown reimaginings of AC/DC. Now, a new tool from Spotify will make them even easier to generate and […]",
+    "source": "The Verge",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/936072/spotify-umg-ai-music-remix-cover-superfan"
+  },
+  {
+    "id": "6cbc2826e5cf",
+    "title": "Samsung&#8217;s memory chip employees negotiated $340,000 bonuses this year",
+    "summary": "Details have emerged about a tentative deal struck between Samsung and semiconductor employees who had threatened to strike. The deal reportedly makes some workers eligible for average annual bonuses of $340,000. The proposed 18-day strike had hinged on Samsung's bonus cap for employees in the semiconductor division and followed a substantial rise in the possible […]",
+    "source": "The Verge",
+    "time": "2026-05-22",
+    "category": "芯片",
+    "tag": "",
+    "url": "https://www.theverge.com/tech/936002/samsung-memory-chip-employees-deal-strike-bonus"
+  },
+  {
+    "id": "cfa75c0d6a9d",
+    "title": "Texas AG sues Meta over claims that WhatsApp doesn't provide end-to-end encryption",
+    "summary": "Critics note a lack of factual support in lawsuit filed by US Senate candidate.",
+    "source": "Ars Technica",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://arstechnica.com/security/2026/05/texas-ag-sues-meta-over-claims-that-whatsapp-doesnt-provide-end-to-end-encryption/"
+  },
+  {
+    "id": "1a8016fb212c",
+    "title": "A hacker group is poisoning open source code at an unprecedented scale",
+    "summary": "GitHub is just the latest victim of TeamPCP, a gang that has carried out a spree of software supply chain attacks.",
+    "source": "Ars Technica",
+    "time": "2026-05-22",
+    "category": "开源",
+    "tag": "",
+    "url": "https://arstechnica.com/information-technology/2026/05/a-hacker-group-is-poisoning-open-source-code-at-an-unprecedented-scale/"
+  },
+  {
+    "id": "4c030ac412a4",
+    "title": "The Download: coding’s future, the ‘Steroid Olympics,’ and AI-driven science",
+    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Anthropic’s Code with Claude showed off coding’s future—whether you like it or not At Anthropic’s developer event in London this week, Code with Claude, attendees were asked if they’d shipped code…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-22",
+    "category": "大模型",
+    "tag": "",
+    "url": "https://www.technologyreview.com/2026/05/22/1137845/the-download-coding-future-steroid-olympics-ai-science/"
+  },
+  {
+    "id": "0df04abb2464",
+    "title": "Google I/O showed how the path for AI-driven science is shifting",
+    "summary": "During Tuesday’s Google I/O keynote, Demis Hassabis, the CEO of Google DeepMind, proclaimed that we are currently “standing in the foothills of the singularity.” It was a striking statement—the singularity is the theoretical future moment when AI rapidly exceeds human intelligence and dramatically transforms the world. But what struck me as I listened in the…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-22",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://www.technologyreview.com/2026/05/22/1137813/google-i-o-showed-how-the-path-for-ai-science-is-shifting/"
+  },
+  {
+    "id": "63f314592a92",
+    "title": "The Enhanced Games fit right in with the rest of 2026’s longevity vibes",
+    "summary": "This Sunday, a group of 42 athletes will gather in Las Vegas to compete in a somewhat unusual sporting competition. Participants in the inaugural Enhanced Games are being encouraged to take performance-enhancing drugs. The goal is to “push the boundaries of human performance.” The games’ organizers have said that competitors will only be taking substances that…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-22",
+    "category": "医疗AI",
+    "tag": "",
+    "url": "https://www.technologyreview.com/2026/05/22/1137753/the-enhanced-games-fit-right-in-with-the-rest-of-2026s-longevity-vibes/"
+  },
+  {
+    "id": "42c9fa540346",
+    "title": "Spotify and Universal Music strike deal allowing fan-made AI covers and remixes",
+    "summary": "Spotify is partnering with Universal Music Group￼ to let Premium subscribers create AI-generated song covers and remixes, with participating artists receiving a share of the revenue.",
+    "source": "TechCrunch",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/"
+  },
+  {
+    "id": "44ddff98f58d",
+    "title": "Six search engines worth trying now that Google isn’t really Google anymore",
+    "summary": "Google is about to look really different, and if you're not a fan of the AI overview feature, then you're not going to like what's coming.",
+    "source": "TechCrunch",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/"
+  },
+  {
+    "id": "4dc7e21053fa",
+    "title": "Trump delays AI security executive order, saying language ‘could have been a blocker’",
+    "summary": "President Trump delayed signing an executive order that would have required pre-release government security reviews of AI models, citing dissatisfaction with the order's language.",
+    "source": "TechCrunch",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/"
+  },
+  {
+    "id": "c789ba37af37",
+    "title": "Spotify adds AI-powered Q&A and briefing generation features to podcasts",
+    "summary": "Spotify will let you generate daily or weekly briefs based on your prompts",
+    "source": "TechCrunch",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://techcrunch.com/2026/05/21/spotify-adds-ai-powered-qa-and-briefing-generation-features-to-podcasts/"
+  },
+  {
+    "id": "dd39931fc74b",
+    "title": "Spotify takes on Google’s NotebookLM with its new app",
+    "summary": "Spotify is releasing the new desktop app as a research preview in more than 20 markets.",
+    "source": "TechCrunch",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://techcrunch.com/2026/05/21/spotify-debuts-a-new-desktop-app-for-creating-personal-podcasts/"
+  },
+  {
+    "id": "1f5476b2f709",
+    "title": "Spotify launches an ElevenLabs-powered audiobook creation tool",
+    "summary": "The AI-powered audiobook generation won't bind authors to an exclusive contract, meaning they are free to publish their generated audiobooks anywhere.",
+    "source": "TechCrunch",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://techcrunch.com/2026/05/21/spotify-launches-an-elevenlabs-powered-audiobook-creation-tool/"
+  },
+  {
+    "id": "827e98878335",
+    "title": "The Path, founded by Tony Robbins and Calm alums, hopes to offer safer AI therapy",
+    "summary": "The Path says its AI model has scored 95 on the mental health safety AI benchmark, Vera-MH. This compares to a top score of 65 for the consumer bots.",
+    "source": "TechCrunch",
+    "time": "2026-05-21",
+    "category": "医疗AI",
+    "tag": "",
+    "url": "https://techcrunch.com/2026/05/21/the-path-founded-by-tony-robbins-and-calm-alums-wants-to-offer-safer-ai-therapy/"
+  },
+  {
+    "id": "73ecf3ba2033",
+    "title": "All of the updates from Elon Musk and Sam Altman’s battle over OpenAI",
+    "summary": "Sam Altman and Elon Musk are facing off in a high-stakes trial that could alter the future of OpenAI and its most well-known product, ChatGPT. In 2024, Musk filed a lawsuit accusing OpenAI of abandoning its founding mission of developing AI to benefit humanity and shifting focus to boosting profits instead. After nearly a month, […]",
+    "source": "The Verge",
+    "time": "2026-05-21",
+    "category": "大模型",
+    "tag": "hot",
+    "url": "https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"
+  },
+  {
+    "id": "5035fec84e31",
+    "title": "In desperate times, graduates find hope in humiliating tech CEOs",
+    "summary": "University graduates are booing and heckling corporate executives who praise AI during their commencement ceremonies, and the only people who seem to be genuinely surprised by this are the executives themselves. In a procession of viral videos, 2026 commencement speakers like former Google CEO Eric Schmidt face loud and sustained jeers from students after praising […]",
+    "source": "The Verge",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/935602/graduates-boo-ai-ceos"
+  },
+  {
+    "id": "4a951e97320c",
+    "title": "This AI guitar pedal let me roll my own effects",
+    "summary": "I'm not sure anyone was really asking for an AI guitar pedal. But it was inevitable that someone would build one. One of the first to take the plunge is Polyend, a well-respected music gear maker with a reputation for building niche, idiosyncratic devices. The company has built grooveboxes around old-school trackers and a multi-effect […]",
+    "source": "The Verge",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/935219/polyend-endless-ai-guitar-effects-pedal"
+  },
+  {
+    "id": "e1062986eb41",
+    "title": "Spotify is launching AI-generated remixes",
+    "summary": "Spotify and Universal Music Group (UMG) just announced a licensing deal that will allow users to prompt the creation of AI-generated remixes and covers for streaming songs. The tool will be a paid add-on for Premium subscribers. Artists will be able to opt out of the program, but those who do participate will collect royalties […]",
+    "source": "The Verge",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/935379/spotify-umg-ai-covers-remix"
+  },
+  {
+    "id": "5186decfa829",
+    "title": "US government takes $2 billion equity stake in nine quantum computing firms",
+    "summary": "Beneficiaries include startup backed by firm with links to the Trump family.",
+    "source": "Ars Technica",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/gadgets/2026/05/us-government-takes-2-billion-equity-stake-in-nine-quantum-computing-firms/"
+  },
+  {
+    "id": "d2fa8794efa7",
+    "title": "Roundtables: Can AI Learn to Understand the World?",
+    "summary": "Listen to the session or watch below AI companies want to build systems that understand the external world and overcome the limitations of LLMs. Recent developments have brought world models to the forefront of the AI discussion. Watch a conversation with editor in chief Mat Honan, senior AI editor Will Douglas Heaven, and AI reporter…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-21",
+    "category": "大模型",
+    "tag": "",
+    "url": "https://www.technologyreview.com/2026/05/21/1137756/roundtables-can-ai-learn-to-understand-the-world/"
+  },
+  {
+    "id": "0dc7927236e1",
+    "title": "Scaling creativity in the age of AI",
+    "summary": "Storytelling is core to humanity’s DNA, stemming from our impulse to express ideals, warnings, hopes, and experiences. Technology has always been woven through the medium and the distribution: from early humans’ innovation of natural pigments and charcoals for cave paintings to literal representation by the camera. The landscape of storytelling continues to shift under our…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://www.technologyreview.com/2026/05/21/1137613/scaling-creativity-in-the-age-of-ai/"
+  },
+  {
+    "id": "578b3ae1fa8f",
+    "title": "Anthropic’s Code with Claude showed off coding’s future—whether you like it or not",
+    "summary": "The vibes were strong at Code with Claude, Anthropic’s two-day event for software developers in London that kicked off on May 19, the same day as Google’s I/O in Palo Alto. (A coincidence, not a flex, Anthropic staffers assured me.) “Who here has shipped a pull request in the last week that was completely written…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-21",
+    "category": "大模型",
+    "tag": "",
+    "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
+  },
+  {
+    "id": "8237d16ce1ed",
+    "title": "The Download: online safety’s future and climate tech’s big pivot",
+    "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Tech researchers are suing the Trump administration over the future of online safety For months, the Trump administration has been going after researchers who study and try to counter hate speech,…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://www.technologyreview.com/2026/05/21/1137733/the-download-online-safety-climate-tech-pivot/"
+  },
+  {
+    "id": "c471310fc910",
+    "title": "Climate tech companies are pivoting to critical minerals",
+    "summary": "We’re over a year into the second Trump administration here in the US, and support for climate causes is weak. But climate tech companies are finding ways to survive and even thrive in this new environment, including by focusing on potential benefits outside decarbonization. Suddenly, it feels like every climate tech company has a story…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://www.technologyreview.com/2026/05/21/1137622/climate-tech-pivot-critical-minerals/"
+  },
+  {
+    "id": "555fdc8ba204",
+    "title": "Tech researchers are suing the Trump administration over the future of online safety",
+    "summary": "Since its earliest days back in office, the Trump administration has been going after researchers who study and try to counter hate speech, harassment, propaganda, and disinformation online. Now, some of those researchers are fighting back. Last week their lawsuit—which could have global repercussions for online safety and free speech—made its first appearance in court. …",
+    "source": "MIT Tech Review",
+    "time": "2026-05-21",
+    "category": "科技",
+    "tag": "",
+    "url": "https://www.technologyreview.com/2026/05/21/1137632/lawsuit-trump-administration-online-safety-coalition-for-independent-technology-research/"
+  },
+  {
+    "id": "842ccdb99d1d",
+    "title": "Google publishes exploit code threatening millions of Chromium users",
+    "summary": "Google publishes exploit code before patch, reported 42 months earlier, is fixed.",
+    "source": "Ars Technica",
+    "time": "2026-05-20",
+    "category": "科技",
+    "tag": "hot",
+    "url": "https://arstechnica.com/security/2026/05/google-publishes-exploit-code-threatening-millions-of-chromium-users/"
+  },
+  {
+    "id": "780a2c64a4b9",
+    "title": "Green steel startup Boston Metal is doubling down on critical metals",
+    "summary": "The startup Boston Metal has raised a $75 million funding round to produce critical metals, MIT Technology Review can exclusively report. The company has been known largely for its efforts to clean up steel production, an industry that’s responsible for about 8% of global greenhouse emissions today. With the additional money, the new focus could…",
+    "source": "MIT Tech Review",
+    "time": "2026-05-20",
+    "category": "投资",
+    "tag": "hot",
+    "url": "https://www.technologyreview.com/2026/05/20/1137523/boston-metal-funding-critical-metals/"
+  },
+  {
+    "id": "cca90bd3c608",
+    "title": "In stunning display of stupid, secret CISA credentials found in public GitHub repo",
+    "summary": "SSH keys, plaintext passwords, other sensitive data had been up since November 2025.",
+    "source": "Ars Technica",
+    "time": "2026-05-19",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/information-technology/2026/05/in-stunning-display-of-stupid-secret-cisa-credentials-found-in-public-github-repo/"
+  },
+  {
+    "id": "7895f9a3afed",
+    "title": "Zero-day exploit completely defeats default Windows 11 BitLocker protections",
+    "summary": "It's not entirely clear how the exploit works. Microsoft says it's investigating.",
+    "source": "Ars Technica",
+    "time": "2026-05-14",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/security/2026/05/zero-day-exploit-completely-defeats-default-windows-11-bitlocker-protections/"
+  },
+  {
+    "id": "acaec087fa51",
+    "title": "Cisco announces record revenue and 4,000 layoffs in the same day",
+    "summary": "Layoffs are \"not a savings-driven restructure,\" CFO says.",
+    "source": "Ars Technica",
+    "time": "2026-05-14",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/information-technology/2026/05/cisco-announces-record-revenue-and-4000-layoffs-in-the-same-day/"
+  },
+  {
+    "id": "078de8bd9e07",
+    "title": "Linux bitten by second severe vulnerability in as many weeks",
+    "summary": "Production-version patches are coming online and should be installed pronto.",
+    "source": "Ars Technica",
+    "time": "2026-05-11",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/security/2026/05/linux-bitten-by-second-severe-vulnerability-in-as-many-weeks/"
+  },
+  {
+    "id": "b0a2519d9e2d",
+    "title": "Chaos erupts as cyberattack disrupts learning platform Canvas amid finals",
+    "summary": "Across the country, schools and colleges postpone year-end tests.",
+    "source": "Ars Technica",
+    "time": "2026-05-08",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/security/2026/05/chaos-erupts-as-cyberattack-disrupts-learning-platform-canvas-amid-finals/"
+  },
+  {
+    "id": "ca5487acdbac",
+    "title": "Mozilla says 271 vulnerabilities found by Mythos have \"almost no false positives\"",
+    "summary": "The developer of Firefox says it has \"completely bought in\" on AI-assisted bug discovery.",
+    "source": "Ars Technica",
+    "time": "2026-05-07",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/information-technology/2026/05/mozilla-says-271-vulnerabilities-found-by-mythos-have-almost-no-false-positives/"
+  },
+  {
+    "id": "74d3be719114",
+    "title": "Ars Asks: Share your shell and show us your tricked-out terminals!",
+    "summary": "A celebration of the tweaks and customizations that make life easier at the CLI.",
+    "source": "Ars Technica",
+    "time": "2026-05-06",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/information-technology/2026/05/ars-asks-share-your-shell-and-show-us-your-tricked-out-terminals/"
+  },
+  {
+    "id": "f34f4a64ded2",
+    "title": "Widely used Daemon Tools disk app backdoored in monthlong supply-chain attack",
+    "summary": "Daemon Tools users: It's time to check your machines for stealthy infections, stat.",
+    "source": "Ars Technica",
+    "time": "2026-05-05",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/security/2026/05/widely-used-daemon-tools-disk-app-backdoored-in-monthlong-supply-chain-attack/"
+  },
+  {
+    "id": "70418dc2b583",
+    "title": "Why Reddit blocked my daily visit to its mobile website",
+    "summary": "Reddit REALLY wants you to use its app.",
+    "source": "Ars Technica",
+    "time": "2026-05-05",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/information-technology/2026/05/why-reddit-blocked-my-daily-visit-to-its-mobile-website/"
+  },
+  {
+    "id": "8b5df07e2793",
+    "title": "GameStop offers $56 billion for eBay, struggles to explain how it'll pay for it",
+    "summary": "Amid falling revenue and store closures, GameStop wants to buy the much larger eBay.",
+    "source": "Ars Technica",
+    "time": "2026-05-04",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/tech-policy/2026/05/gamestop-offers-56-billion-for-ebay-struggles-to-explain-how-itll-pay-for-it/"
+  },
+  {
+    "id": "440494d7065e",
+    "title": "Ubuntu infrastructure has been down for more than a day",
+    "summary": "The outage has hampered communication concerning a critical vulnerability that gives root.",
+    "source": "Ars Technica",
+    "time": "2026-05-01",
+    "category": "科技",
+    "tag": "",
+    "url": "https://arstechnica.com/security/2026/05/ubuntu-infrastructure-has-been-down-for-more-than-a-day/"
+  },
+  {
+    "id": 1,
+    "title": "OpenAI发布GPT-5，多模态能力大幅提升",
+    "summary": "OpenAI正式发布GPT-5模型，在文本生成、图像理解、代码编写等方面实现重大突破，支持100万token上下文窗口，推理能力接近人类专家水平。",
+    "source": "TechCrunch",
+    "time": "2025-05-23",
+    "category": "大模型",
+    "tag": "hot",
+    "url": "https://techcrunch.com"
+  },
+  {
+    "id": 2,
+    "title": "Google DeepMind推出Gemini 2.0，挑战GPT-5",
+    "summary": "Google DeepMind发布Gemini 2.0 Ultra版本，在数学推理和科学问答任务上超越GPT-5，成为新Benchmark冠军。该模型支持原生多模态输入输出。",
+    "source": "The Verge",
+    "time": "2025-05-22",
+    "category": "大模型",
+    "tag": "hot",
+    "url": "https://theverge.com"
+  },
+  {
+    "id": 3,
+    "title": "特斯拉Optimus机器人实现自主叠衣服",
+    "summary": "特斯拉最新一代人形机器人Optimus展示了完全自主叠衣服的能力，从识别衣物到折叠完成全程无人干预，标志着家用机器人实用化的重要一步。",
+    "source": "Reuters",
+    "time": "2025-05-22",
+    "category": "机器人",
+    "tag": "new",
+    "url": "https://reuters.com"
+  },
+  {
+    "id": 4,
+    "title": "Meta开源Llama 4，400B参数模型免费商用",
+    "summary": "Meta正式开源Llama 4系列模型，最大版本拥有4000亿参数，性能接近闭源顶级模型。开源社区迎来最强免费商用大模型。",
+    "source": "VentureBeat",
+    "time": "2025-05-21",
+    "category": "开源",
+    "tag": "hot",
+    "url": "https://venturebeat.com"
+  },
+  {
+    "id": 5,
+    "title": "AI生成的音乐首次获得格莱美提名",
+    "summary": "一首由AI辅助创作的歌曲获得格莱美最佳流行歌曲提名，引发音乐产业关于AI创作版权和艺术价值的激烈讨论。",
+    "source": "Billboard",
+    "time": "2025-05-21",
+    "category": "AIGC",
+    "tag": "new",
+    "url": "https://billboard.com"
+  },
+  {
+    "id": 6,
+    "title": "欧盟AI法案正式生效，全球AI监管进入新阶段",
+    "summary": "欧盟《人工智能法案》全面生效实施，对高风险AI应用实施严格监管，违规企业最高可处全球营收7%的罚款。多国开始效仿制定本国AI法规。",
+    "source": "Financial Times",
+    "time": "2025-05-20",
+    "category": "政策",
+    "tag": "",
+    "url": "https://ft.com"
+  },
+  {
+    "id": 7,
+    "title": "微软Copilot全面集成到Windows 12",
+    "summary": "微软宣布将AI助手Copilot深度集成到下一代操作系统Windows 12中，支持系统级语音控制、智能文件管理和跨应用协作。",
+    "source": "Wired",
+    "time": "2025-05-20",
+    "category": "产品",
+    "tag": "new",
+    "url": "https://wired.com"
+  },
+  {
+    "id": 8,
+    "title": "百度文心一言4.5发布，中文能力再创新高",
+    "summary": "百度发布文心一言4.5版本，在中文理解、古文翻译、文学创作等方面大幅领先，成为中文能力最强的大语言模型。",
+    "source": "36氪",
+    "time": "2025-05-19",
+    "category": "大模型",
+    "tag": "",
+    "url": "https://36kr.com"
+  },
+  {
+    "id": 9,
+    "title": "AI芯片市场爆发，英伟达市值突破4万亿美元",
+    "summary": "受AI算力需求持续增长推动，英伟达股价再创新高，市值突破4万亿美元大关。H200芯片供不应求，新架构Blackwell Ultra即将量产。",
+    "source": "Bloomberg",
+    "time": "2025-05-19",
+    "category": "芯片",
+    "tag": "hot",
+    "url": "https://bloomberg.com"
+  },
+  {
+    "id": 10,
+    "title": "Sora视频生成模型向所有用户开放",
+    "summary": "OpenAI宣布Sora视频生成模型向所有ChatGPT用户开放，支持最长5分钟、1080p视频生成，影视行业面临颠覆性变革。",
+    "source": "CNN",
+    "time": "2025-05-18",
+    "category": "AIGC",
+    "tag": "new",
+    "url": "https://cnn.com"
+  },
+  {
+    "id": 11,
+    "title": "AI诊断系统在早期癌症检测中准确率达99%",
+    "summary": "一项大规模临床研究显示，基于深度学习的AI诊断系统在多种早期癌症检测中准确率达到99.2%，显著优于人类放射科医生的平均水平。",
+    "source": "Nature",
+    "time": "2025-05-18",
+    "category": "医疗AI",
+    "tag": "",
+    "url": "https://nature.com"
+  },
+  {
+    "id": 12,
+    "title": "Anthropic发布Claude 5，安全性能获重大提升",
+    "summary": "Anthropic发布Claude 5模型，在保持顶级性能的同时，安全性和可控性实现质的飞跃，引入全新宪法AI框架2.0。",
+    "source": "Ars Technica",
+    "time": "2025-05-17",
+    "category": "大模型",
+    "tag": "hot",
+    "url": "https://arstechnica.com"
+  }
+]

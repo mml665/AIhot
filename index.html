@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIhot - AI热点新闻聚合</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">AI<span class="logo-highlight">hot</span></span>
+      </div>
+      <nav class="nav">
+        <button class="nav-btn active" data-filter="all">全部</button>
+        <button class="nav-btn" data-filter="大模型">大模型</button>
+        <button class="nav-btn" data-filter="AIGC">AIGC</button>
+        <button class="nav-btn" data-filter="机器人">机器人</button>
+        <button class="nav-btn" data-filter="开源">开源</button>
+        <button class="nav-btn" data-filter="芯片">芯片</button>
+        <button class="nav-btn" data-filter="医疗AI">医疗</button>
+        <button class="nav-btn" data-filter="政策">政策</button>
+        <button class="nav-btn" data-filter="产品">产品</button>
+      </nav>
+      <div class="header-actions">
+        <button class="refresh-btn" id="refreshBtn" title="刷新新闻">🔄</button>
+        <button class="theme-toggle" id="themeToggle" title="切换主题">
+          <span class="icon-sun">☀️</span>
+          <span class="icon-moon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">AI 热点新闻 <span class="gradient-text">实时聚合</span></h1>
+        <p class="hero-desc">追踪全球AI领域最新动态，一站式获取行业热点资讯</p>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" id="totalNews">0</span>
+            <span class="stat-label">今日热点</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number" id="totalCategories">0</span>
+            <span class="stat-label">覆盖领域</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">24h</span>
+            <span class="stat-label">更新频率</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search Bar -->
+  <section class="search-section">
+    <div class="container">
+      <div class="search-box">
+        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <path d="m21 21-4.35-4.35"></path>
+        </svg>
+        <input type="text" id="searchInput" class="search-input" placeholder="搜索新闻标题、摘要...">
+      </div>
+    </div>
+  </section>
+
+  <!-- News Grid -->
+  <main class="main">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">最新资讯</h2>
+        <span class="section-badge" id="newsCount">0 条</span>
+      </div>
+      <div class="news-grid" id="newsGrid">
+        <!-- News cards will be inserted here -->
+      </div>
+      <div class="empty-state" id="emptyState" style="display: none;">
+        <span class="empty-icon">🔍</span>
+        <p>没有找到相关新闻</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-icon">⚡</span>
+          <span class="logo-text">AI<span class="logo-highlight">hot</span></span>
+        </div>
+        <p class="footer-text">追踪AI前沿，洞见未来趋势</p>
+        <div class="footer-links">
+          <span>© 2025 AIhot</span>
+          <span>·</span>
+          <span>数据仅供参考</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
