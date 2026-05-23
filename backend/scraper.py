@@ -15,7 +15,7 @@ RSS_FEEDS = [
         "source": "36氪"
     },
     {
-        "name": "IT之家AI",
+        "name": "IT之家",
         "url": "https://www.ithome.com/rss/",
         "category": "科技",
         "source": "IT之家"
@@ -25,6 +25,18 @@ RSS_FEEDS = [
         "url": "https://sspai.com/feed",
         "category": "产品",
         "source": "少数派"
+    },
+    {
+        "name": "虎嗅",
+        "url": "https://www.huxiu.com/rss/0.xml",
+        "category": "科技",
+        "source": "虎嗅"
+    },
+    {
+        "name": "Solidot",
+        "url": "https://www.solidot.org/index.rss",
+        "category": "科技",
+        "source": "Solidot"
     },
     # 海外源
     {
@@ -58,6 +70,7 @@ CATEGORY_KEYWORDS = {
     "开源": ["开源", "open source", "open-source", "hugging face", "huggingface", "github"],
     "政策": ["法案", "regulation", "监管", "policy", "法规", "合规", "备案", "治理"],
     "投资": ["融资", "投资", "valuation", "ipo", "收购", "funding", "series", "估值", "独角兽"],
+    "应用": ["应用", "落地", "product", "productivity", "效率", "办公", "agent", "智能体", "copilot"],
 }
 
 HEADERS = {
@@ -88,6 +101,66 @@ WEB_SCRAPERS = [
             "title": "h4, h3, .title",
             "link": "a",
             "summary": "p, .desc"
+        }
+    },
+    {
+        "name": "新智元",
+        "url": "https://www.xinzhiyuan.com/",
+        "category": "大模型",
+        "source": "新智元",
+        "selectors": {
+            "list": "article, .post-item, .news-item, .article-item",
+            "title": "h2, h3, h4, .title, .entry-title",
+            "link": "a",
+            "summary": "p, .excerpt, .summary, .desc"
+        }
+    },
+    {
+        "name": "InfoQ中文",
+        "url": "https://www.infoq.cn/topic/AI",
+        "category": "大模型",
+        "source": "InfoQ",
+        "selectors": {
+            "list": "article, .article-item, .news-item, .content-item",
+            "title": "h3, h4, .title",
+            "link": "a",
+            "summary": "p, .desc, .summary"
+        }
+    },
+    {
+        "name": "CSDN AI",
+        "url": "https://www.csdn.net/nav/ai",
+        "category": "大模型",
+        "source": "CSDN",
+        "selectors": {
+            "list": "article, .article-item, .news-item",
+            "title": "h3, h4, .title, a.title",
+            "link": "a",
+            "summary": "p, .desc, .content"
+        }
+    },
+    {
+        "name": "澎湃新闻科技",
+        "url": "https://www.thepaper.cn/channel_25951",
+        "category": "科技",
+        "source": "澎湃新闻",
+        "selectors": {
+            "list": "div.news_box, .list_content .news_txt, .news_li",
+            "title": "h2, a",
+            "link": "a",
+            "summary": "p, .news_txt"
+        }
+    },
+    {
+        "name": "极客公园",
+        "url": "https://www.geekpark.net/",
+        "category": "科技",
+        "source": "极客公园",
+        "selectors": {
+            "list": "article, .article-item, .post-item",
+            "title": "h2, h3, .title",
+            "link": "a",
+            "summary": "p, .excerpt, .summary"
         }
     },
 ]
