@@ -10,6 +10,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Bubbles Background -->
+  <div class="bubbles">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+  </div>
+
   <!-- Header -->
   <header class="header">
     <div class="container header-inner">
@@ -19,16 +31,16 @@
       </div>
       <nav class="nav">
         <button class="nav-btn active" data-filter="all">全部</button>
-        <button class="nav-btn" data-filter="大模型">大模型</button>
-        <button class="nav-btn" data-filter="AIGC">AIGC</button>
-        <button class="nav-btn" data-filter="机器人">机器人</button>
-        <button class="nav-btn" data-filter="芯片">芯片</button>
-        <button class="nav-btn" data-filter="开源">开源</button>
-        <button class="nav-btn" data-filter="应用">应用</button>
-        <button class="nav-btn" data-filter="医疗AI">医疗</button>
-        <button class="nav-btn" data-filter="政策">政策</button>
-        <button class="nav-btn" data-filter="投资">投资</button>
-        <button class="nav-btn" data-filter="产品">产品</button>
+        <button class="nav-btn" data-filter="大模型">🤖 大模型</button>
+        <button class="nav-btn" data-filter="AIGC">🎨 AIGC</button>
+        <button class="nav-btn" data-filter="机器人">🦾 机器人</button>
+        <button class="nav-btn" data-filter="芯片">💎 芯片</button>
+        <button class="nav-btn" data-filter="开源">📦 开源</button>
+        <button class="nav-btn" data-filter="应用">🚀 应用</button>
+        <button class="nav-btn" data-filter="医疗AI">💊 医疗</button>
+        <button class="nav-btn" data-filter="政策">📋 政策</button>
+        <button class="nav-btn" data-filter="投资">💰 投资</button>
+        <button class="nav-btn" data-filter="产品">📱 产品</button>
       </nav>
       <div class="header-actions">
         <button class="refresh-btn" id="refreshBtn" title="刷新新闻">🔄</button>
@@ -42,20 +54,32 @@
 
   <!-- Hero Section -->
   <section class="hero">
+    <div class="hero-decor">
+      <div class="seaweed"></div>
+      <div class="seaweed"></div>
+      <div class="seaweed"></div>
+      <div class="seaweed"></div>
+    </div>
     <div class="container">
       <div class="hero-content">
+        <div class="hero-characters">
+          <span>🧽</span>
+          <span>⭐</span>
+          <span>🦀</span>
+          <span>🐿️</span>
+        </div>
         <h1 class="hero-title">比奇堡的 <span class="gradient-text">AI 新闻站</span></h1>
         <p class="hero-desc">海绵宝宝带你追踪全球AI最新动态，准备好了吗？</p>
         <div class="hero-stats">
-          <div class="stat">
+          <div class="stat" data-emoji="🔥">
             <span class="stat-number" id="totalNews">0</span>
             <span class="stat-label">今日热点</span>
           </div>
-          <div class="stat">
+          <div class="stat" data-emoji="📊">
             <span class="stat-number" id="totalCategories">0</span>
             <span class="stat-label">覆盖领域</span>
           </div>
-          <div class="stat">
+          <div class="stat" data-emoji="⏰">
             <span class="stat-number">24h</span>
             <span class="stat-label">更新频率</span>
           </div>
@@ -72,7 +96,7 @@
           <circle cx="11" cy="11" r="8"></circle>
           <path d="m21 21-4.35-4.35"></path>
         </svg>
-        <input type="text" id="searchInput" class="search-input" placeholder="搜索新闻标题、摘要...">
+        <input type="text" id="searchInput" class="search-input" placeholder="🔍 搜索新闻标题、摘要...">
       </div>
     </div>
   </section>
@@ -81,7 +105,7 @@
   <main class="main">
     <div class="container">
       <div class="section-header">
-        <h2 class="section-title">最新资讯</h2>
+        <h2 class="section-title">📰 最新资讯</h2>
         <span class="section-badge" id="newsCount">0 条</span>
       </div>
       <div class="news-grid" id="newsGrid">
@@ -97,6 +121,13 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
+      <div class="footer-characters">
+        <span>🧽</span>
+        <span>⭐</span>
+        <span>🦀</span>
+        <span>🐿️</span>
+        <span>🐙</span>
+      </div>
       <div class="footer-inner">
         <div class="footer-brand">
           <span class="logo-icon">🧽</span>
@@ -106,7 +137,7 @@
         <div class="footer-links">
           <span>© 2025 AIhot</span>
           <span>·</span>
-          <span>数据仅供参考</span>
+          <span>比奇堡出品</span>
         </div>
       </div>
     </div>
