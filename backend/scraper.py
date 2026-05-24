@@ -27,10 +27,16 @@ RSS_FEEDS = [
         "source": "少数派"
     },
     {
-        "name": "虎嗅",
-        "url": "https://www.huxiu.com/rss/0.xml",
-        "category": "科技",
-        "source": "虎嗅"
+        "name": "量子位",
+        "url": "https://www.qbitai.com/feed",
+        "category": "大模型",
+        "source": "量子位"
+    },
+    {
+        "name": "InfoQ中文",
+        "url": "https://www.infoq.cn/feed",
+        "category": "大模型",
+        "source": "InfoQ"
     },
     {
         "name": "Solidot",
@@ -50,12 +56,6 @@ RSS_FEEDS = [
         "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         "category": "产品",
         "source": "The Verge"
-    },
-    {
-        "name": "VentureBeat AI",
-        "url": "https://venturebeat.com/category/ai/feed/",
-        "category": "大模型",
-        "source": "VentureBeat"
     },
 ]
 
@@ -77,93 +77,8 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
 }
 
-# 中文AI新闻网页爬取源（无RSS）
-WEB_SCRAPERS = [
-    {
-        "name": "量子位",
-        "url": "https://www.qbitai.com/",
-        "category": "大模型",
-        "source": "量子位",
-        "selectors": {
-            "list": "article, .post-item, .news-item, a[href*='qbitai.com']",
-            "title": "h2, h3, .title, .entry-title",
-            "link": "a",
-            "summary": "p, .excerpt, .summary"
-        }
-    },
-    {
-        "name": "机器之心",
-        "url": "https://www.jiqizhixin.com/",
-        "category": "大模型",
-        "source": "机器之心",
-        "selectors": {
-            "list": "article, .article-item, .news-item",
-            "title": "h4, h3, .title",
-            "link": "a",
-            "summary": "p, .desc"
-        }
-    },
-    {
-        "name": "新智元",
-        "url": "https://www.xinzhiyuan.com/",
-        "category": "大模型",
-        "source": "新智元",
-        "selectors": {
-            "list": "article, .post-item, .news-item, .article-item",
-            "title": "h2, h3, h4, .title, .entry-title",
-            "link": "a",
-            "summary": "p, .excerpt, .summary, .desc"
-        }
-    },
-    {
-        "name": "InfoQ中文",
-        "url": "https://www.infoq.cn/topic/AI",
-        "category": "大模型",
-        "source": "InfoQ",
-        "selectors": {
-            "list": "article, .article-item, .news-item, .content-item",
-            "title": "h3, h4, .title",
-            "link": "a",
-            "summary": "p, .desc, .summary"
-        }
-    },
-    {
-        "name": "CSDN AI",
-        "url": "https://www.csdn.net/nav/ai",
-        "category": "大模型",
-        "source": "CSDN",
-        "selectors": {
-            "list": "article, .article-item, .news-item",
-            "title": "h3, h4, .title, a.title",
-            "link": "a",
-            "summary": "p, .desc, .content"
-        }
-    },
-    {
-        "name": "澎湃新闻科技",
-        "url": "https://www.thepaper.cn/channel_25951",
-        "category": "科技",
-        "source": "澎湃新闻",
-        "selectors": {
-            "list": "div.news_box, .list_content .news_txt, .news_li",
-            "title": "h2, a",
-            "link": "a",
-            "summary": "p, .news_txt"
-        }
-    },
-    {
-        "name": "极客公园",
-        "url": "https://www.geekpark.net/",
-        "category": "科技",
-        "source": "极客公园",
-        "selectors": {
-            "list": "article, .article-item, .post-item",
-            "title": "h2, h3, .title",
-            "link": "a",
-            "summary": "p, .excerpt, .summary"
-        }
-    },
-]
+# 中文AI新闻网页爬取源（无RSS）- 仅保留可靠的
+WEB_SCRAPERS = []
 
 
 def classify_news(title: str, summary: str) -> str:
