@@ -212,7 +212,8 @@ body {
   align-items: center;
   gap: 12px;
   flex-shrink: 0;
-  margin-left: 16px;
+  margin-left: auto;
+  padding-left: 12px;
 }
 
 .theme-toggle, .refresh-btn {
