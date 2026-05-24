@@ -9,6 +9,13 @@ import threading
 from backend.scraper import fetch_all
 from backend.news_store import load_news, update_news
 
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def _ensure_dirs():
+    for d in ["css", "js", "data", "images"]:
+        os.makedirs(os.path.join(ROOT_DIR, d), exist_ok=True)
+
 
 def _safe_scrape():
     try:
@@ -21,10 +28,9 @@ def _safe_scrape():
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: run initial scrape in background
+    _ensure_dirs()
     threading.Thread(target=_safe_scrape, daemon=True).start()
     yield
-    # Shutdown: nothing needed
 
 
 app = FastAPI(title="AIhot API", lifespan=lifespan)
@@ -35,8 +41,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 @app.get("/api/news")
@@ -77,6 +81,9 @@ def refresh():
     except Exception as e:
         return {"status": "error", "message": str(e)}
 
+
+# Ensure directories exist before mounting
+_ensure_dirs()
 
 # Serve static files
 app.mount("/css", StaticFiles(directory=os.path.join(ROOT_DIR, "css")), name="css")
