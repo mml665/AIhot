@@ -200,22 +200,28 @@ def fetch_web(scraper_config: dict) -> list:
     return news_list
 
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+
 def fetch_all() -> list:
     all_news = []
 
-    # 爬取RSS源
-    for feed in RSS_FEEDS:
-        print(f"[Scraper] Fetching RSS: {feed['name']}...")
-        news = fetch_rss(feed)
-        all_news.extend(news)
-        print(f"[Scraper] Got {len(news)} items from {feed['name']}")
+    # 并发抓取所有源
+    tasks = {}
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        for feed in RSS_FEEDS:
+            tasks[executor.submit(fetch_rss, feed)] = feed["name"]
+        for scraper in WEB_SCRAPERS:
+            tasks[executor.submit(fetch_web, scraper)] = scraper["name"]
 
-    # 爬取中文网页源
-    for scraper in WEB_SCRAPERS:
-        print(f"[Scraper] Fetching Web: {scraper['name']}...")
-        news = fetch_web(scraper)
-        all_news.extend(news)
-        print(f"[Scraper] Got {len(news)} items from {scraper['name']}")
+        for future in as_completed(tasks):
+            name = tasks[future]
+            try:
+                news = future.result()
+                all_news.extend(news)
+                print(f"[Scraper] {name}: {len(news)} items")
+            except Exception as e:
+                print(f"[Scraper] {name} failed: {e}")
 
     # 去重
     seen_ids = set()
