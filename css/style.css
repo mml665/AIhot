@@ -181,16 +181,17 @@ body {
 .nav::-webkit-scrollbar { display: none; }
 
 .nav-btn {
-  padding: 6px 16px;
+  padding: 4px 10px;
   border: 2px solid transparent;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 0.875rem;
+  font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
   border-radius: 20px;
   transition: all 0.2s;
   white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .nav-btn:hover {
