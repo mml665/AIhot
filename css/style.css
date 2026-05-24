@@ -133,7 +133,7 @@ body {
 .header-inner {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
   height: var(--header-height);
 }
 
@@ -172,7 +172,7 @@ body {
 
 .nav {
   display: flex;
-  gap: 4px;
+  gap: 2px;
   overflow-x: auto;
   scrollbar-width: none;
   min-width: 0;
@@ -182,11 +182,11 @@ body {
 .nav::-webkit-scrollbar { display: none; }
 
 .nav-btn {
-  padding: 4px 10px;
+  padding: 3px 8px;
   border: 2px solid transparent;
   background: transparent;
   color: var(--text-secondary);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
   cursor: pointer;
   border-radius: 20px;
