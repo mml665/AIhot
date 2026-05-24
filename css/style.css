@@ -133,7 +133,7 @@ body {
 .header-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 16px;
   height: var(--header-height);
 }
 
@@ -144,6 +144,7 @@ body {
   font-size: 1.5rem;
   font-weight: 800;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 .logo-icon {
